@@ -116,7 +116,7 @@ int main()
     suitSortedCards.begin(), 
     suitSortedCards.end(), 
     [](const PlayingCard& a, const PlayingCard& b) { 
-      return suitOrder(a.suit) < suitOrder(b.suit);
+      return getsuitOrder(a.suit) < suitOrder(b.suit);
     }
   );
 
