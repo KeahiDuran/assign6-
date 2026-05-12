@@ -138,7 +138,9 @@ int main()
     [](const PlayingCard& card) { 
       return card.rank;
     }
-  )
+  );
+
+  for 
 }
 
 
