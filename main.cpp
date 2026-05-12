@@ -71,7 +71,7 @@ int main()
 
   );
 
-  cout << 
+  cout << diamondTotal << endl; 
 
 }
 
