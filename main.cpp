@@ -22,7 +22,11 @@ vector<PlayingCard> parseCards(const string &input)
   return cards;
 }
 
-int getSuit
+int getSuitOrder(Suit)
+
+
+
+
 
 int main()
 {
