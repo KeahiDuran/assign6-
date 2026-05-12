@@ -99,7 +99,7 @@ int main()
     suitSortedCards.begin(), 
     suitSortedCards.end(), 
     [](const PlayingCard& a, const PlayingCard& b) { 
-      return suitOrder
+      return suitOrder(a.suit) < suitOrder
     }
   )
 }
