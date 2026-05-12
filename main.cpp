@@ -131,7 +131,7 @@ int main()
   cout << "Task 6: Print the Unique Ranks" << endl; 
   set<int> uniqueRanks; 
 
-  transfrom( 
+  transform( 
     cards.begin(),
     cards.end(), 
     inserter(uniqueRanks, uniqueRanks.begin()), 
