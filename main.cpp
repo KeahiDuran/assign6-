@@ -32,7 +32,7 @@ int getSuitOrder(Suit suit) {
   if (suit == Suit::Hearts) { 
     return 2; 
   }
-  
+  return 3;
 }
 
 
