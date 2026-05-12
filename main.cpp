@@ -132,7 +132,8 @@ int main()
   set<int> uniqueRanks; 
 
   transfrom( 
-    
+    cards.begin(),
+    cards.end()
   )
 }
 
