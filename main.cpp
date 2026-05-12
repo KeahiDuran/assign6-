@@ -62,7 +62,7 @@ int main()
     cards.begin(), 
     cards.end(), 
     0,
-    []
+    [](int total, const PlayingCard)
 
   )
 
