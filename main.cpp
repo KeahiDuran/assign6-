@@ -140,7 +140,9 @@ int main()
     }
   );
 
-  for (int rank : uniqueRanks)
+  for (int rank : uniqueRanks) { 
+    cout 
+  }
 }
 
 
