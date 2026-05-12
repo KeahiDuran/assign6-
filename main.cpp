@@ -73,7 +73,7 @@ int main()
 
   cout << diamondTotal << endl; 
 
-  
+  cout << "Task 4: "
 
 
 
