@@ -105,7 +105,7 @@ int main()
   for (const PlayingCard& card : rankSortedCards) { 
     cout << to_string(card) << " "; 
   }
-  cout << endl << endl;
+  cout << endl;
 
 
   cout << "Task 5: Print the cards in Suit Order" << endl; 
