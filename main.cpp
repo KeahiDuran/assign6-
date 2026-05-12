@@ -96,7 +96,8 @@ int main()
   vector<PlayingCard? suitSortedCards = cards; 
 
   sort(
-    suitSortedCards.begin()
+    suitSortedCards.begin(), 
+    suitSortedCards.end()
   )
 }
 
