@@ -156,9 +156,9 @@ int main()
     [&rankCounts](const PlayingCard& card) { 
       rankCounts[card.rank]++;
     }
-  )
+  );
 
-
+  
 
 }
 
