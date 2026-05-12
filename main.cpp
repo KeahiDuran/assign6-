@@ -22,6 +22,8 @@ vector<PlayingCard> parseCards(const string &input)
   return cards;
 }
 
+
+
 int main()
 {
   std::cout << "Enter a list of playing cards (e.g. AS 10H 3D JC): ";
