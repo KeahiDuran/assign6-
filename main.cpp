@@ -97,7 +97,8 @@ int main()
 
   sort(
     suitSortedCards.begin(), 
-    suitSortedCards.end()
+    suitSortedCards.end(), 
+    [](const PlayingCard)
   )
 }
 
