@@ -80,7 +80,9 @@ int main()
   sort( 
     rankSortedCards.begin(), 
     rankSortedCards.end(), 
-    [](const PlayingCard& a, const PlayingCard)
+    [](const PlayingCard& a, const PlayingCard& b) { 
+      retun a.rank
+    }
   )
 
 }
