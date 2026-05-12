@@ -134,7 +134,8 @@ int main()
   transfrom( 
     cards.begin(),
     cards.end(), 
-    inserter(uniqueRanks, )
+    inserter(uniqueRanks, uniqueRanks.begin()), 
+    
   )
 }
 
