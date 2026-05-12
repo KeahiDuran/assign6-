@@ -32,7 +32,9 @@ int main()
 
   cout << "Task 1: Print the Hearts" << endl; 
 
-  for_each
+  for_each( 
+    cards.begin()
+  )
 
 
 }
