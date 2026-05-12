@@ -79,7 +79,7 @@ int main()
 
   sort( 
     rankSortedCards.begin(), 
-    rank
+    rankSortedCards.end()
   )
 
 }
