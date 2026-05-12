@@ -43,7 +43,7 @@ int main()
   );
 
 
-  cout << "Task 2: "
+  cout << "Task 2: Count the Spades"
 
 
 }
