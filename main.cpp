@@ -60,7 +60,9 @@ int main()
 
   int diamondTotal = accumulate( 
     cards.begin(), 
-    cards
+    cards.end(), 
+    0,
+    []
 
   )
 
