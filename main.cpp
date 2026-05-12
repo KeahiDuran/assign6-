@@ -104,7 +104,7 @@ int main()
   );
 
 
-  for 
+  for (const PlayingCard)
 }
 
 
