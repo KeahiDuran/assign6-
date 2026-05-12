@@ -85,7 +85,9 @@ int main()
     }
   );
 
-  for (const PlayingCard& card : rankSortedCards)
+  for (const PlayingCard& card : rankSortedCards) { 
+    cout 
+  }
 
 }
 
