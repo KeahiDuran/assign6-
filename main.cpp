@@ -34,7 +34,8 @@ int main()
 
   for_each( 
     cards.begin(),
-    cards.end()
+    cards.end(), 
+    [](const PlayingCard)
   )
 
 
