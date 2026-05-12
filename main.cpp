@@ -149,7 +149,10 @@ int main()
   cout << "Task 7: Print the counts of each rank" << endl; 
 
   map<int, int> rankCounts; 
-  
+
+  for_each(
+    cards.be
+  )
 
 
 
