@@ -98,7 +98,9 @@ int main()
   sort(
     suitSortedCards.begin(), 
     suitSortedCards.end(), 
-    [](const PlayingCard& a, const PlayingCard)
+    [](const PlayingCard& a, const PlayingCard& b) { 
+      return suitOrder
+    }
   )
 }
 
