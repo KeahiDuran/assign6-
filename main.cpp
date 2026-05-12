@@ -148,7 +148,8 @@ int main()
 
   cout << "Task 7: Print the counts of each rank" << endl; 
 
-  map<int, int
+  map<int, int> rankCounts; 
+  
 
 
 
