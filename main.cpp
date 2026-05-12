@@ -86,7 +86,7 @@ int main()
   );
 
   for (const PlayingCard& card : rankSortedCards) { 
-    cout << to_string(card << " ";
+    cout << to_string(card) << " "; 
   }
   cout << endl << endl;
 
