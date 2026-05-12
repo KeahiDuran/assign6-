@@ -140,7 +140,7 @@ int main()
     }
   );
 
-  for 
+  for (int rank : uniqueRanks)
 }
 
 
