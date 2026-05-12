@@ -153,8 +153,8 @@ int main()
   for_each(
     cards.begin(),
     cards.end(),
-    [rankCounts](const PlayingCard& card) { 
-      rankCounts[card.rank]
+    [&rankCounts](const PlayingCard& card) { 
+      rankCounts[card.rank]++;
     }
   )
 
