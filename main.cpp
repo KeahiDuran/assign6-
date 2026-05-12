@@ -159,7 +159,7 @@ int main()
   );
 
   for (cpmst auto& pair : rankCounts) { 
-    cout << "Rank "
+    cout << "Rank " << pair.first 
   }
 
 }
