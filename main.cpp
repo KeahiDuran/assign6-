@@ -58,7 +58,7 @@ int main()
 
   cout << " Task 3: Print the Total Value of Diamonds" << endl; 
 
-  int diamondTotal = std::accumulate( 
+  int diamondTotal = accumulate( 
     cards.begin(), 
 
   )
