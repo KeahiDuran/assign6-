@@ -151,7 +151,8 @@ int main()
   map<int, int> rankCounts; 
 
   for_each(
-    cards.be
+    cards.begin(),
+    cards.end()
   )
 
 
