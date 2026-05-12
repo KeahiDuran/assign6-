@@ -23,7 +23,10 @@ vector<PlayingCard> parseCards(const string &input)
 }
 
 int getSuitOrder(Suit suit) { 
-  if (suit == Suit::Clubs)
+  if (suit == Suit::Clubs) { 
+    return 0; 
+  }
+  
 }
 
 
