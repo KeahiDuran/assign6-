@@ -154,7 +154,7 @@ int main()
     cards.begin(),
     cards.end(),
     [rankCounts](const PlayingCard& card) { 
-      rankCounts{}
+      rankCounts[card.rank]
     }
   )
 
