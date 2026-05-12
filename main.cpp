@@ -37,10 +37,10 @@ int main()
     cards.end(), 
     [](const PlayingCard& card) {
       if (card.suit == Suit::Hearts) { 
-        cout << to_string(card)
+        cout << to_string(card) << " "; 
       }
     }
-  )
+  );
 
 
 }
