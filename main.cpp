@@ -32,8 +32,8 @@ int main()
 
   cout << "Task 1: Print the Hearts" << endl; 
 
-  sdawd 
   
+
 
 }
 
