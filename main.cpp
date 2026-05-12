@@ -128,7 +128,7 @@ int main()
   cout << endl; 
 
 
-  cout << "Task 6: Print the un"
+  cout << "Task 6: Print the Unique Ranks"
 }
 
 
