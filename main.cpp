@@ -129,7 +129,7 @@ int main()
 
 
   cout << "Task 6: Print the Unique Ranks" << endl; 
-  set
+  set<int> uniqueRanks; 
 }
 
 
