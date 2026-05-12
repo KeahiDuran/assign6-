@@ -158,7 +158,7 @@ int main()
     }
   );
 
-  
+  for (cpmst auto)
 
 }
 
