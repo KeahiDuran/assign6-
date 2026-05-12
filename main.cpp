@@ -55,7 +55,7 @@ int main()
 
   cout << spadeCount << endl;
 
-  cout << ""
+  cout << "Print "
 
 }
 
