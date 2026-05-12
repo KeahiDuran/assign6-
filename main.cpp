@@ -55,7 +55,7 @@ int main()
 
   cout << spadeCount << endl;
 
-  cout << "Print "
+  cout << "Print the Total Value of Diamonds"
 
 }
 
