@@ -75,7 +75,11 @@ int main()
 
   cout << "Task 4: Print the cards in rank order" << endl; 
 
-  vector<PlayingCard> rankSortedCards
+  vector<PlayingCard> rankSortedCards = cards; 
+
+  sort( 
+    rankSortedCards
+  )
 
 }
 
