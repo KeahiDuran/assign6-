@@ -81,9 +81,9 @@ int main()
     rankSortedCards.begin(), 
     rankSortedCards.end(), 
     [](const PlayingCard& a, const PlayingCard& b) { 
-      retrun a.rank < b.rank
+      return a.rank < b.rank;
     }
-  )
+  );
 
 }
 
