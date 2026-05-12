@@ -95,7 +95,9 @@ int main()
 
   vector<PlayingCard? suitSortedCards = cards; 
 
-  sort
+  sort(
+    suit
+  )
 }
 
 
