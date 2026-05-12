@@ -146,7 +146,7 @@ int main()
 
   cout << endl; 
 
-  cout << "Task 7: "
+  cout << "Task 7: Print the counts of each rank" << endl; 
 
 
 
