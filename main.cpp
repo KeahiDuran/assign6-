@@ -69,7 +69,7 @@ int main()
       return total;
     }
 
-  )
+  );
 
 }
 
