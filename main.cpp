@@ -53,7 +53,7 @@ int main()
     }
   );
 
-  cout << 
+  cout << spadeCount << endl;
 
 
 }
