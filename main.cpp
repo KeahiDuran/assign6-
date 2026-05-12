@@ -36,7 +36,9 @@ int main()
     cards.begin(),
     cards.end(), 
     [](const PlayingCard& card) {
-      if (card.suit == Suit)
+      if (card.suit == Suit::Hearts) { 
+        
+      }
     }
   )
 
