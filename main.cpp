@@ -141,7 +141,7 @@ int main()
   );
 
   for (int rank : uniqueRanks) { 
-    cout 
+    cout << to_string(rank) << " "
   }
 }
 
