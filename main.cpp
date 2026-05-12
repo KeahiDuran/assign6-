@@ -158,7 +158,9 @@ int main()
     }
   );
 
-  for (cpmst auto& pair : rankCounts)
+  for (cpmst auto& pair : rankCounts) { 
+    cout << "Rank "
+  }
 
 }
 
