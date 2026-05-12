@@ -78,7 +78,8 @@ int main()
   vector<PlayingCard> rankSortedCards = cards; 
 
   sort( 
-    rankSortedCards
+    rankSortedCards.begin(), 
+    rank
   )
 
 }
