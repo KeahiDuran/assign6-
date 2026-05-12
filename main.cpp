@@ -49,9 +49,9 @@ int main()
     cards.begin(), 
     cards.end(), 
     [](const PlayingCard& card) { 
-      return card.suit == Suit::
+      return card.suit == Suit::Spades; 
     }
-  )
+  );
 
 
 }
