@@ -135,7 +135,9 @@ int main()
     cards.begin(),
     cards.end(), 
     inserter(uniqueRanks, uniqueRanks.begin()), 
-    [](const PlayingCard)
+    [](const PlayingCard& card) { 
+      return card.rank;
+    }
   )
 }
 
