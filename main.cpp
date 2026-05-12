@@ -29,6 +29,7 @@ int getSuitOrder(Suit suit) {
   if (suit == Suit::Diamonds) {
     return 1; 
   }
+  if 
 }
 
 
