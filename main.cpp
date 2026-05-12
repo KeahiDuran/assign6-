@@ -26,7 +26,7 @@ int getSuitOrder(Suit suit) {
   if (suit == Suit::Clubs) { 
     return 0; 
   }
-  
+  i
 }
 
 
