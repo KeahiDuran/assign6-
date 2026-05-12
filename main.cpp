@@ -86,7 +86,7 @@ int main()
   );
 
   for (const PlayingCard& card : rankSortedCards) { 
-    std::cout << card << " ";
+    cout << card << " ";
   }
 
 }
