@@ -5,7 +5,7 @@
 #include <map> 
 #include <set> 
 #include <string> 
-
+#include <numeric> 
 #include "PlayingCard.h"
 
 using namespace std;
