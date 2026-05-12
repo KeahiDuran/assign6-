@@ -104,7 +104,9 @@ int main()
   );
 
 
-  for (const PlayingCard& card : suitSortedCards)
+  for (const PlayingCard& card : suitSortedCards) { 
+    
+  }
 }
 
 
