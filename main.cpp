@@ -133,7 +133,8 @@ int main()
 
   transfrom( 
     cards.begin(),
-    cards.end()
+    cards.end(), 
+    inserter
   )
 }
 
