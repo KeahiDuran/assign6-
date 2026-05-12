@@ -93,7 +93,7 @@ int main()
 
   cout << "Task 5: Print the cards in Suit Order" << endl; 
 
-  vector<PlayingCard? suitSortedCards = cards; 
+  vector<PlayingCard> suitSortedCards = cards; 
 
   sort(
     suitSortedCards.begin(), 
