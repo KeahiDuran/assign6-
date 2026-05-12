@@ -49,7 +49,7 @@ int main()
     cards.begin(), 
     cards.end(), 
     [](const PlayingCard& card) { 
-      retun card.suit
+      return card.suit == Suit::
     }
   )
 
