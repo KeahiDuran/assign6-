@@ -85,7 +85,7 @@ int main()
     }
   );
 
-  for ()
+  for (const PlayingCard& card : rankSortedCards)
 
 }
 
