@@ -105,8 +105,10 @@ int main()
 
 
   for (const PlayingCard& card : suitSortedCards) { 
-    cout << to_string(card)
+    cout << to_string(card) << " "
   }
+
+  cout << endl << endl; 
 }
 
 
