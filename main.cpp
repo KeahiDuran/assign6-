@@ -64,8 +64,9 @@ int main()
     0,
     [](int total, const PlayingCard& card) { 
       if (card.suit == Suit::Diamonds) { 
-        return total + card.rank
+        return total + card.rank;
       }
+      return total;
     }
 
   )
